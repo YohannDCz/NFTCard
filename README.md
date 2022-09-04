@@ -28,8 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![This is the screenshot of the desktop](https://github.com/YohannDCz/NFTCard/blob/main/Screenshot%202022-09-04%20at%2011.29.58.png)
-
+![This is the screenshot of the desktop](https://github.com/YohannDCz/NFTCard/blob/main/Screenshot%202022-09-04%20at%2013.06.13.png)
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/YohannDCz/NFTCard)
