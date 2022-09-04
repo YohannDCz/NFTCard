@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Outfit, sans-serif;
+  }
+
+  body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 545px;
+    background-color: hsl(216, 50%, 16%);
+    border: none;
+    border-radius: 15px;
+  }
+
+  .card .equilibrium {
+    width: 276px;
+    height: 276px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    margin: 22px auto;
+  }
+
+  .card .description {
+    margin: 0 24px;
+  }
+
+  .card .description .title {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .card .description .text-content {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 16px 0;
+  }
+
+  .card .description .money-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+
+  .card .description .money-time .eth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card .description .money-time .eth img {
+    display: block;
+    height: 16px;
+    object-fit: contain;
+  }
+
+  .card .description .money-time .eth .ethereum {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    margin-left: 8px;
+  }
+
+  .card .description .money-time .datetime {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card .description .money-time .datetime .dayleft {
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 8px;
+  }
+
+  .card .description hr {
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  .card .description .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card .description .profile .avatar {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+
+  .card .description .profile .creator {
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 14px;
+  }
+
+  .card .description .profile .creator span {
+    font-size: 14px;
+    color: white;
+  }
+
+  
